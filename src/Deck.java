@@ -15,6 +15,7 @@ public class Deck {
         }
     }
 
+
     public void shuffle() {
         Collections.shuffle(deck);
     }
