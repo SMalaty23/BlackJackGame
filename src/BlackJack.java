@@ -209,9 +209,9 @@ public class BlackJack {
 
         // Add a new hand and bet for the player (if continuing)
         playerHands.add(new ArrayList<Card>());
-        playerBets.add(0); // You will set this in the betting phase of the next round
+        playerBets.add(0);
 
-        // Optionally shuffle the deck here if you're not using a fresh deck every round
+        // shuffle the deck here since were using a fresh deck every round
         deck.shuffle();
 
         // Ask the player if they want to continue
